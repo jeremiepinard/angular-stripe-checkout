@@ -15,7 +15,9 @@ var OPTION_ATTRIBUTE_MAP = {
   panelLabel: "data-panel-label",
   zipCode: "data-zip-code",
   email: "data-email",
-  label: "data-label"
+  label: "data-label",
+  billingAddress: "data-billingAddress",
+  shippingAddress: "data-shippingAddress"
 };
 
 angular.module("stripe.checkout",[])
